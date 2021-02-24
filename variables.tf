@@ -14,6 +14,6 @@ variable "resource_group_name" {
 }
 
 variable "allocation_method" {
-  description = "(Optional) A string to indicate hwo to allocate."
+  description = "(Optional) A string to indicate how to allocate."
   default     = "Static"
 }
