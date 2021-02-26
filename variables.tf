@@ -4,8 +4,9 @@ variable "name" {
 }
 
 variable "location" {
-  description = "(Optional) A string for the location of the resource group."
-  default     = "west europe"
+  description = "A string for the location of the resource group."
+  type        = string
+  default     = "westeurope"
 }
 
 variable "resource_group_name" {
@@ -14,6 +15,7 @@ variable "resource_group_name" {
 }
 
 variable "allocation_method" {
-  description = "(Optional) A string to indicate how to allocate."
+  description = "A string to indicate how to allocate."
+  type        = string
   default     = "Static"
 }
